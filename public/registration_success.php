@@ -55,7 +55,7 @@ if ($token === '') {
         <?php endif; ?>
     </div>
 
-    <?php include "../config/footer.php";?>
+    <?php include "../include/footer.php";?>
 
 </body>
 </html>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jan 10, 2026 at 07:47 PM
+-- Generation Time: Jan 11, 2026 at 10:10 AM
 -- Server version: 9.1.0
 -- PHP Version: 8.3.14
 
@@ -104,7 +104,7 @@ CREATE TABLE IF NOT EXISTS `registrations` (
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
   KEY `event_id` (`event_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `registrations`
@@ -115,7 +115,8 @@ INSERT INTO `registrations` (`id`, `event_id`, `full_name`, `gender`, `email`, `
 (2, 4, 'Prince Art', 'male', 'alicefavomodeinde@gmail.com', '07075337215', 'Luck Way, Aduwawa, Benin City. Edo state', 'I really love the cast for this drama can\'t wait to see our female lead in action.', '2026-01-10 17:52:22'),
 (3, 3, 'Prince Art', 'male', 'oreofe@gmail.com', '07075337215', 'Luck Way, Aduwawa, Benin City. Edo state', 'I heard Lisa from BlackPink is going to be presenting on tomorrows event. I can\'t honestly #LALISA #blackpink #kpop', '2026-01-10 19:21:13'),
 (4, 3, 'Prince Art', 'male', 'ally@gmail.com', '07075337215', 'Luck Way, Aduwawa, Benin City. Edo state', 'I love Lisa so much!', '2026-01-10 19:23:00'),
-(5, 3, 'Prince Art', 'male', 'lly@gmail.com', '07075337215', 'Luck Way, Aduwawa, Benin City. Edo state', 'GGA 2026', '2026-01-10 19:26:32');
+(5, 3, 'Prince Art', 'male', 'lly@gmail.com', '07075337215', 'Luck Way, Aduwawa, Benin City. Edo state', 'GGA 2026', '2026-01-10 19:26:32'),
+(6, 5, 'Grace Favour', 'female', 'ally@gmail.com', '07075337215', 'Luck Way, Aduwawa, Benin City. Edo state', 'I\'m expecting Jennie to slay at her performance just like she did in the MMA. I also expect that she would win many awards as well. I have really high hopes for her album, Ruby and her global hit song Like Jennie. I aslo expect a spectacular performance from Straykids as well as Enhypen, Lessarafim and BoyNextDoor.', '2026-01-11 10:04:39');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

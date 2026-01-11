@@ -49,7 +49,7 @@ $event_name = $registrations[0]['event_name'] ?? 'Event Registrations';
 </head>
 <body class="container mt-5">
     
-    <?php include "../config/navbar.php";?>
+    <?php include "../include/navbar.php";?>
 
 <h2><?= htmlspecialchars($event_name) ?> – Registrants</h2>
 
@@ -87,7 +87,7 @@ $event_name = $registrations[0]['event_name'] ?? 'Event Registrations';
 
 <a href="../index.php" class="btn btn-secondary">Back</a>
 
-<?php include "../config/footer.php";?>
+<?php include "../include/footer.php";?>
 
 </body>
 </html>

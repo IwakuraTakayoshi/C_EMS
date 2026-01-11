@@ -109,7 +109,7 @@ $registration_open =
 
 <?php endif; ?>
 
-<?php include "../config/footer.php";?>
+<?php include "../include/footer.php";?>
 
 </body>
 </html>

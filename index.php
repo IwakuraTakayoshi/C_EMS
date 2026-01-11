@@ -19,7 +19,7 @@ $host_id = $_SESSION["host_id"];
 </head>
 <body class="container mt-5">
 
-<?php include "config/navbar.php";?>
+<?php include "include/navbar.php";?>
 
     <div class="card p-4">
 <h2>Welcome, <?php echo htmlspecialchars($_SESSION["host_name"]); ?></h2>
@@ -116,7 +116,7 @@ $events = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <br>
 
-<?php include "config/footer.php";?>
+<?php include "include/footer.php";?>
 
 </body>
 </html>

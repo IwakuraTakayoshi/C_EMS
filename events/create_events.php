@@ -23,7 +23,7 @@ require "../config/db.php";
 </head>
 <body class="container mt-5">
 
-<?php include "../config/navbar.php";?>
+<?php include "../include/navbar.php";?>
 
 <h2>Create Event</h2>
 
@@ -63,7 +63,7 @@ require "../config/db.php";
     <a href="../index.php" class="btn btn-secondary">Back</a>
 </form>
 
-<?php include "../config/footer.php";?>
+<?php include "../include/footer.php";?>
 
 </body>
 </html>

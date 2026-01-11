@@ -18,7 +18,7 @@ if (isset($_SESSION["error"])) {
 </head>
 <body class="container mt-5">
 
-<?php include "../config/navbar.php";?>
+<?php include "../include/navbar.php";?>
 
     <h2>Host Login</h2>
     <form action="login_process.php" method="POST">
@@ -27,7 +27,7 @@ if (isset($_SESSION["error"])) {
     <button type="submit" class="btn btn-primary">Login</button>
 </form>
 
-<?php include "../config/footer.php";?>
+<?php include "../include/footer.php";?>
 
 </body>
 </html>
